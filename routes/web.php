@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+//
 Route::get('/belajar', function () {
    $data=[
        ['judul'=>'ini adalah judul'],
